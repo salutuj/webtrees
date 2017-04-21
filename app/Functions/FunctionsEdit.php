@@ -713,6 +713,7 @@ class FunctionsEdit {
 			echo Bootstrap4::select(FunctionsEdit::optionsRestrictions(true), $value, ['id' => $id, 'name' => $name]);
 			echo self::inputAddonHelp('RESN');
 			echo '</span>';
+			echo '</div>';
 		} elseif ($fact === 'SEX') {
 			echo Bootstrap4::radioButtons($name, ['M' => I18N::translate('Male'), 'F' => I18N::translate('Female'), 'U' => I18N::translateContext('unknown gender', 'Unknown')], $value, true);
 		} elseif ($fact === 'SOUR') {
