@@ -219,7 +219,12 @@ a > .wt-icon-arrow-up:hover::before {
 }
 
 .wt-header-wrapper {
+}
 
+.wt-header-wrapper .dropdown-item.active {
+	background-color: inherit;
+	color: inherit;
+	font-weight: bold;
 }
 
 .wt-header-container {

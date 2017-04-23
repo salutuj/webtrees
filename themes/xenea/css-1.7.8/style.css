@@ -651,6 +651,23 @@ a > .wt-icon-arrow-up:hover::before {
 	margin: 0 auto;
 }
 
+.wt-page-options .form-group {
+	margin-bottom: 2px;
+}
+
+.wt-page-options-label {
+	color: #006;
+	background-color: #95b8e0;
+	border-left: 2px solid transparent;
+	border-right: 2px solid transparent;
+}
+
+.wt-page-options-value {
+	background-color: #ecf5ff;
+	border: thin solid #c3dfff;
+	padding: 0.25rem 0.75rem;
+}
+
 .wt-page-content {
 }
 
