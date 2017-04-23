@@ -203,7 +203,7 @@ a > .wt-icon-arrow-up:hover::before {
  *     |   +---wt-main-content
  *     |       +---wt-messages
  *     |       +---wt-page-title
- *     |       +---wt-page-options
+ *     |       +---wt-page-options wt-page-options-xxxxx
  *     |       +---wt-page-content
  *     +---wt-footer-container
  *         +---wt-footer-content
@@ -642,7 +642,8 @@ a > .wt-icon-arrow-up:hover::before {
 }
 
 .wt-page-options {
-	text-align: center;
+	max-width: 50rem;
+	margin: 0 auto;
 }
 
 .wt-page-content {
